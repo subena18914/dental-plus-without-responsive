@@ -1,0 +1,316 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.clr{
+	clear: both;
+}
+a{
+	color: #a0a0a0;
+    transition: .25s;
+	text-decoration:none;
+	font-size:16px;
+}
+a:hover{
+	text-decoration: none;
+   
+    color: #a0a0a0;
+}
+a:focus{
+	text-decoration: none;
+    
+    color: #a0a0a0;
+}
+p{
+    color: #707070;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+	line-height:25px;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+	font-weight: 700;
+}
+h3{
+	font-size:24px;
+	
+}
+h4{
+	font-size:18px;
+	color:#363636;
+	font-weight:bold;
+}
+i,span{
+	padding:0px;
+	margin:0px;
+}
+li{
+	display:inline-block;
+	list-style:none;
+}
+img{
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+/******************************    faq html coding start           ****************************************/
+#banner{
+	background-image: url(../images/banner-img.jpg);
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	padding:140px 0px 130px 0px;
+}
+.banner-content{}
+.banner-content h3{
+	float:left;
+	font-size:30px;
+	font-weight:bold;
+	color:#f69165;
+}
+.banner-content .banner-menu{
+	float:right;
+}
+.banner-content .banner-menu ul{}
+.banner-content .banner-menu ul li{
+	font-size:16px;
+	color:#555555;
+	font-weight:bold;
+	display: inline-block;
+}
+.banner-content .banner-menu ul li:first-child{
+	padding-right:16px;
+}
+.banner-content .banner-menu ul li a{
+	color:#959595;
+	display: inline-block;
+}
+.banner-content .banner-menu ul li a span{
+	padding:0px 10px;
+	font-size:10px;
+}
+.banner-content .banner-menu ul li a:hover{
+	color:#f69165;
+}
+/***** start*****/
+#error-page{
+	padding:84px 0px 205px 0px;
+}
+.error-pasges{
+	padding-bottom:23px;
+}
+.error-pasges h1{
+	font-size:250px;
+	color:#00cce1;
+	font-weight:bold;
+}
+.error-pasges h1 span{
+	font-size:290px;
+	color:#f69165;
+}
+.error h3{
+	font-size:48px;
+	font-weight:600px;
+	color:#222222;
+	padding-bottom:22px;
+}
+.error p{
+	font-size:30px;
+	color:#707070;
+	padding-bottom:26px;
+}
+.error a{
+	font-size:24px;
+	color:#f69165;
+	text-transform:uppercase;
+}
+.error-bottom{
+	padding:72px 0px;
+	background:#f5f5f5;
+}
+
+
+#search {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+		  color: #00cce1;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.5em 0;
+  padding: 20px 20px 16px 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 570px;
+  margin:0 auto;
+}
+#search button,
+#search input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  border: 0;
+  color: #c2c2c2;
+  outline: 0;
+}
+#search button {
+  cursor: pointer;
+  padding: 0 0.25em;
+}
+#search input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+		  color: #c2c2c2;
+		  font-size:14px;
+}
+#search input::-webkit-input-placeholder {
+ color: #c2c2c2;
+}
+#search input::-moz-placeholder {
+  color: #c2c2c2;
+}
+#search input:-ms-input-placeholder {
+  color: #c2c2c2;
+}
+#search input::placeholder {
+  color: #c2c2c2;
+  font-size:14px;
+}
+#search .spinner {
+  -webkit-animation: spinner 1s infinite linear;
+          animation: spinner 1s infinite linear;
+  display: none;
+  padding: 0 0.25em;
+  color: #00cce1;
+}
+
+#search.loading button {
+  display: none;
+  color: #00cce1;
+}
+#search.loading .spinner {
+  display: block;
+  color: #00cce1;
+  font-size:20px;
+}
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+#button i{
+	font-size:20px;
+	color:#00cce1;
+	
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
